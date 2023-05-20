@@ -1,0 +1,34 @@
+.head{
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.head .contents{
+    padding-top: 170px;
+}
+.head p{
+    font-size:20px;
+}
+.heading{
+    font-size:50px;
+}
+@media all and (max-width:1279px)
+{
+    
+}
+@media all and (max-width:767px)
+{
+    .head .contents{
+        padding-top: 250px;
+    }
+   
+}
+.home-btn{
+    border-radius:10px;
+    padding: 20px 30px;
+    border: none;
+    font-size: 20px;
+}
+.home-btn a{
+    text-decoration: none;
+}

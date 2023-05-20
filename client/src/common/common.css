@@ -1,0 +1,50 @@
+.center{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.flex{
+  display: flex;
+}
+#animate-text{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: xx-large;
+  letter-spacing: 1vw;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(50, 210, 35, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #animateText {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #animateText {
+    font-size: medium;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
